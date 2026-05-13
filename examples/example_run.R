@@ -38,7 +38,7 @@ res <- run_ere_pipeline(
   genes_of_interest = genes_of_interest,
   universe = universe,
   erefinder_path = "/path/to/EREfinder",
-  n_perm = 100,
+  n_perm = 1000,
   upstream = 10000,
   downstream = 10000
 )
