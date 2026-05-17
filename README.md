@@ -8,6 +8,15 @@ This repository contains an R pipeline to:
 4. compare genes of interest against random gene sets
 5. visualize permutation results
 
+## External dependency: EREfinder
+
+This pipeline requires the EREfinder command-line executable.
+EREfinder can be downloaded here: https://github.com/JonesLabIdaho/EREfinder
+
+Install EREfinder separately, then provide the path to the executable:
+
+erefinder_path <- "/path/to/EREfinder"
+
 ## Main script
 
 The full pipeline is in:
